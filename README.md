@@ -18,3 +18,12 @@ Sharing some thoughts of each chapter with side quests, This is not an overview 
 - Good operations can often work around the limitations of bad software, but good software cannot run reliably with bad operations.
     - example by me (Good operations, bad software): If a program is leaking memory at a rate of 100MiB every day, the node memory is 1 GiB and the init memory of the application is 100MiB, then the operations team can just restart (Automated ofc) this application every 9 days and it will be fine.
     - example by me (Bad operations, good software): Your network routers gets restarted every X minutes, Proxies drop your connections unexpectedly or your application machine gets restarted every X hours
+
+### Side Quest 1: [Chaos monkey](https://github.com/Netflix/chaosmonkey)
+- Fake conversation inside netflix
+    - Operations Engineer 1: `You know what will be funny, terminating production virtual machines unexpectedly!`
+    - Operations Engineer 2: `Won't this cause issues across the whole system?`
+    - Operations Engineer 1: `Yes, but that will be a good tolerance test to the development team`
+    - Development team: `Tolerate this`. A pan was thrown at the operations engineers
+    - And just like that Chaos monkey was invented
+    
