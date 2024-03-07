@@ -25,5 +25,5 @@ Sharing some thoughts of each chapter with side quests, This is not an overview 
     - Operations Engineer 2: `Won't this cause issues across the whole system?`
     - Operations Engineer 1: `Yes, but that will be a good tolerance test to the development team`
     - Development team: `Tolerate this`. A pan was thrown at the operations engineers
-    - And just like that Chaos monkey was invented
+    - And just like that Chaos monkey was invented, You can read more about the [Chaos engineering if you like](http://principlesofchaos.org/)
     
